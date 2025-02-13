@@ -1,0 +1,95 @@
+	body 
+	{
+            background-color: #fee1e5; 
+    	    font-family: Georgia, serif;
+    	    color: #333;
+ 	    justify-content: center;
+        }
+
+        .postings-container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            justify-content: center;
+        }
+
+	.userpostings-container {
+            max-width: 1400px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            justify-content: center;
+        }
+
+        .posting {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #e9f684;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+	    font-family: Arial, 
+        }
+
+        .posting img {
+            max-width: 150px;
+            height: auto;
+            border-radius: 4px;
+            margin-right: 20px;
+        }
+
+        .posting h2 {
+            color: #2c3e50; /* Dark blue font color */
+            margin-bottom: 10px;
+        }
+        
+        .tutoring-info {
+        border: 1px solid #ddd;
+        padding: 10px;
+        margin-top: 10px;
+        background-color: #f9f9f9;
+        }    
+        
+        .tutoring-info p {
+        margin: 5px 0;
+        } 
+
+        .form-group input[type="text"],
+        .form-group textarea,
+        .form-group input[type="number"] 
+	{
+            width: 100%; /* Set width to 100% */
+            box-sizing: border-box; /* Ensure padding and border are included in the width */
+        }
+
+        select {
+            width: 100%; /* Set width to 100% */
+            box-sizing: border-box; /* Ensure padding and border are included in the width */
+        }
+
+	.success-message {
+    	background-color: #aef96b; 
+    	color: #155724; 
+    	padding: 10px;
+    	border-radius: 5px;
+	max-width: 300px;
+	}
+
+        .menu-container {
+            display: flex;
+        }
+        .sidebar {
+            width: 500px; /* Adjust the width as needed */
+            background-color: #e2d9f2;
+        }
+        .main-content {
+            flex-grow: 1;
+            padding: 20px;
+        }
+
+
+	
